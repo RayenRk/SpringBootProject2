@@ -56,7 +56,11 @@
                             <label for="name" class="col-form-label">Voiture</label>
                             <select th:field="*{voiture.id}" >
                                 <option th:each="voitures : ${listVoiture}"
+<<<<<<< HEAD
                                         th:value="${voitures.id}" th:text="${voitures.modele.libelle}"/>
+=======
+                                        th:value="${voitures.id}" th:text="${voitures.serie}"/>
+>>>>>>> origin/main
                             </select>
 
                         </div>
